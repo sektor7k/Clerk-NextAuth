@@ -1,9 +1,11 @@
 import Image from "next/image";
+import { Button } from "@/components/ui/button";
+
 
 export default function Home() {
   return (
-    <div className=" text-red-400">
-      hello world
-    </div>
+    <Button variant={"custom"} size={"lg"}>
+      Click Me
+    </Button>
   );
 }
