@@ -1,10 +1,10 @@
-import Image from "next/image";
 import { Button } from "@/components/ui/button";
-
+import { useEffect } from "react";
 
 export default function Home() {
+
   return (
-    <Button variant={"custom"} size={"lg"}>
+    <Button size={"lg"}>
       Click Me
     </Button>
   );
